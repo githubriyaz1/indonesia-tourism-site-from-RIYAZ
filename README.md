@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🇮🇩 Indonesia Tourism Website
 
 A modern, responsive multi-page website showcasing the top tourist destinations, cultural experiences, and scenic beauty of Indonesia — built with **HTML, CSS, and JavaScript**.
@@ -31,3 +32,6 @@ A modern, responsive multi-page website showcasing the top tourist destinations,
 
 ## 🌐 Folder Structure
 
+=======
+# indonesia-tourism-site-from-RIYAZ
+>>>>>>> 5bc33673c4fe129f154fe6a03a6d8b6d0b81c495
