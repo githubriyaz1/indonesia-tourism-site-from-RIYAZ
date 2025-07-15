@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - Indonesia Tourism</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery-title {
+      text-align: center;
+      margin: 40px 0 10px;
+      font-size: 2rem;
+      color: #102542;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Indonesia Tourism 🇮🇩</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2 class="gallery-title">🖼️ Explore Indonesia Through Pictures</h2>
+
+  <section class="gallery-grid">
+    <img src="assets/images/bali.jpg" alt="Bali Beach">
+    <img src="assets/images/jakarta.jpg" alt="Jakarta City">
+    <img src="assets/images/yogyakarta.jpg" alt="Yogyakarta Temples">
+    <img src="assets/images/lombok.jpg" alt="Lombok Nature">
+    
+    <img src="assets/images/Temple.jpg" alt="Temple">
+    <img src="assets/images/Indonesian Food.jpg" alt="Indonesian Food">
+    <img src="assets/images/Beach.jpg" alt="Beach">
+  </section>
+
+  <footer>
+    <p>© 2025 Indonesia Tourism by RIYAZ. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
